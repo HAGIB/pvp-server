@@ -12,7 +12,7 @@ queue = []
 # Активные бои
 battles = {}
 
-async def handler(websocket, path):
+async def handler(websocket):
     user_id = None
     
     try:
